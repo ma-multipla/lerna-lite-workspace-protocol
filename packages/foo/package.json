@@ -1,0 +1,11 @@
+{
+  "name": "foo",
+  "packageManager": "yarn@3.5.0",
+  "version": "1.0.0",
+  "devDependencies": {
+    "bar": "workspace:^"
+  },
+  "peerDependencies": {
+    "bar": "workspace:^"
+  }
+}

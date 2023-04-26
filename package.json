@@ -1,0 +1,15 @@
+{
+  "name": "lerna-lite-workspace-protocol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@3.5.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@lerna-lite/cli": "^2.1.0",
+    "@lerna-lite/publish": "^2.1.0",
+    "@lerna-lite/version": "^2.1.0"
+  }
+}
